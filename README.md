@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## About
-The Underlying patterns to solve a specific category of problems.
+The underlying patterns to solve a specific category of problems.
 
 ## Getting Started
 
