@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+.container li {
+    margin-bottom: 7px;
+    font-size: 18px;
+}
