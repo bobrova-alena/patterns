@@ -1,10 +1,17 @@
-//Given a string, find longest substring in it with no more than n distinct characters.
+//Given a string, find longest substrings in it with no more than n distinct characters.
 
-export function slidingWindow(str: string, n: number) {
-    let result = '';
+export function subsctingsWithNDistinctCharacters(str: string, n: number) : string[] {
+    let result = [];
+    let maxSubstr = '';
     for(let i = 0; i < str.length; i++ ) {
-        let subStr = findSubstr(str, i, n);
-        result = result.length > subStr.length ? result: subStr.join('');
+        let subStr = findSubstr(str, i, n).join('');
+        if(subStr.length > maxSubstr.length) {
+            result = [subStr];
+            maxSubstr = subStr;
+        } else if(subStr.length == maxSubstr.length) {
+            result.push(subStr);
+            maxSubstr = subStr;
+        }
     }
 
     return result;
