@@ -18,6 +18,11 @@ export default function Home() {
             <a>Sliding window</a>
           </Link>
         </li>
+        <li>
+          <Link href="/tests/two-pointers">
+            <a>Two pointers</a>
+          </Link>
+        </li>
         </ul>
       </div>
   

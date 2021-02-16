@@ -1,7 +1,7 @@
 import React from "react";
 import TestHolder from "../../components/TestHolder/TestHolder";
 import TestLayout from "../../components/TestLayout/TestLayout";
-import { slidingWindow } from "../../src/sliding.window";
+import { slidingWindow } from "../../src/sliding-window";
 
 export default function Page(){
     return (
