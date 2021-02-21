@@ -23,6 +23,11 @@ export default function Home() {
             <a>Two pointers</a>
           </Link>
         </li>
+        <li>
+          <Link href="/tests/fast-and-slow-pointers">
+            <a>Linked List Cycle</a>
+          </Link>
+        </li>
         </ul>
       </div>
   
