@@ -28,6 +28,11 @@ export default function Home() {
             <a>Linked List Cycle</a>
           </Link>
         </li>
+        <li>
+          <Link href="/tests/two-sum">
+            <a>Two sum</a>
+          </Link>
+        </li>
         </ul>
       </div>
   
