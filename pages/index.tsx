@@ -33,6 +33,11 @@ export default function Home() {
             <a>Two sum</a>
           </Link>
         </li>
+        <li>
+          <Link href="/tests/roman-to-integer">
+            <a>Roman to integer</a>
+          </Link>
+        </li>
         </ul>
       </div>
   
