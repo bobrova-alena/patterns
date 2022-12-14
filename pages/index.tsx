@@ -38,6 +38,11 @@ export default function Home() {
             <a>Roman to integer</a>
           </Link>
         </li>
+        <li>
+          <Link href="/tests/longest-common-prefix">
+            <a>Longest common prefix</a>
+          </Link>
+        </li>
         </ul>
       </div>
   
